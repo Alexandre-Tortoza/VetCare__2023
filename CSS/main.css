@@ -16,6 +16,12 @@
     align-items: center;
     padding:0 5rem 0 5rem;
 }
+
+.mobileImg{
+    display: none;
+    filter:
+    blur(.5px)
+    drop-shadow(8px 8px 10px gray)}
 /* services */
 .services{
     text-align: center;
@@ -23,6 +29,8 @@
     padding-top: -3;
     background-color: var(--color01);
 }   
+
+
 
 .services__group{
     padding: 2rem;

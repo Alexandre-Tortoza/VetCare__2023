@@ -7,20 +7,28 @@
         display: none;
     }
 
-    .landing{
+    .landTxt{
         position: relative;
     }
 
     .landTxt {
-        
+        color: black;       
+        padding-bottom: 15rem;
     }
     .landImg{
         display: none;
     }
 
-    .services{
-        margin-top: 2rem;
+    .mobileImg{
+        display: block;
+        z-index: -1;
+        position: absolute;
+        top: 15rem;
+        left: 0 ;
+        max-width: 30px;
+       
     }
+
 
     .services__group{
         font-size: .8rem;
