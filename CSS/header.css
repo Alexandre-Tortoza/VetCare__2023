@@ -10,18 +10,31 @@
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem;
+    align-items: center;
+}
+
+#nav__links a{
+    text-decoration: none;
+    color: black;
 }
 
 #logo{
     color: var(--color01);
     font-weight: 900;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5rem;    
+}
+
+#nav{
+    /* margin-right: 3rem; */
 }
 
 #nav *{
     display: flex;
-    gap: 100PX;
+    gap: 80PX;
+}
+
+#nav li{
+    font-size: 1.5rem;
 }

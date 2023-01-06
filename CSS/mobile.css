@@ -1,0 +1,30 @@
+
+
+
+
+@media(max-width: 600px){
+    #nav__links li{    
+        display: none;
+    }
+
+    .landing{
+        position: relative;
+    }
+
+    .landTxt {
+        
+    }
+    .landImg{
+        display: none;
+    }
+
+    .services{
+        margin-top: 2rem;
+    }
+
+    .services__group{
+        font-size: .8rem;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}

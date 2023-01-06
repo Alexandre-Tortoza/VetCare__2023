@@ -18,6 +18,8 @@
 }
 /* services */
 .services{
+    text-align: center;
+    color: white;
     padding-top: -3;
     background-color: var(--color01);
 }   
@@ -27,7 +29,6 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    color: white;
 }
 .services__group li{
     text-align: center;
@@ -36,6 +37,10 @@
     filter: invert(100%)
 }
 
+.services h2{
+    font-size: 2rem;
+    padding: 2rem;
+}
 
 /* Maps */
 .maps{
@@ -55,3 +60,4 @@
     justify-content: center;
     text-align: center;
 }
+/* avaliations */
