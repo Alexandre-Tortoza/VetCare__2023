@@ -1,0 +1,27 @@
+:root{
+
+    --color01: #365B73;
+    --color02: #5AA3BF;
+    --color03: #D9D0C7;
+    --color04: #A67458;
+    --color05: #A65437;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#logo{
+    color: var(--color01);
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nav *{
+    display: flex;
+    gap: 100PX;
+}

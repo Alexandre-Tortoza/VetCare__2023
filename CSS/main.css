@@ -1,0 +1,57 @@
+
+
+:root{
+
+    --color01: #365B73;
+    --color02: #5AA3BF;
+    --color03: #D9D0C7;
+    --color04: #A67458;
+    --color05: #A65437;
+
+}
+
+.landing {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding:0 5rem 0 5rem;
+}
+/* services */
+.services{
+    padding-top: -3;
+    background-color: var(--color01);
+}   
+
+.services__group{
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.services__group li{
+    text-align: center;
+}
+.blackToWhite{
+    filter: invert(100%)
+}
+
+
+/* Maps */
+.maps{
+    margin-top: 2rem;
+}
+#maptxt{
+    text-align: center;
+    margin: 1rem;
+
+}
+.map{
+    display: flex;
+}
+.map iframe{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
