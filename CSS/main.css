@@ -7,7 +7,7 @@
     --color03: #D9D0C7;
     --color04: #A67458;
     --color05: #A65437;
-
+    --starCollor:#F0AD4E;
 }
 
 .landing {
@@ -16,6 +16,18 @@
     align-items: center;
     padding:0 5rem 0 5rem;
 }
+
+.landTxt h2{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.landTxt h2 span#EMP{
+    color: var(--color01);
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
 
 .mobileImg{
     display: none;
@@ -32,7 +44,7 @@
 
 
 
-.services__group{
+.services__group{   
     padding: 2rem;
     justify-content: center;
     display: flex;
@@ -68,4 +80,48 @@
     justify-content: center;
     text-align: center;
 }
-/* avaliations */
+/* avaliations / reviews */
+.reviews{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    gap: 25px;
+
+
+}
+
+.review{
+    background-color: var(--color02);
+    padding: 1.5vw;
+    border-radius: 10px;
+    color: white;
+    box-shadow: var(--color01) 3px 5px 5px;
+    max-width: 30%;
+    font-size: 2rem;
+}
+.review h3{
+    position: relative;
+    font-weight: 500;
+}
+h3.name::after{
+    position: absolute  ;
+    right: 1px;
+    filter:invert(100%);
+    content: url(./../midia/icons8-google-logo.svg);
+}
+.review p{
+    font-weight: 300;
+    font-size: 1.8rem;
+
+}
+ul.stars{
+    display: flex;
+    
+}
+ul li.star{
+    color: var(--starCollor);
+    padding-bottom: 2vh;
+}
+ul li.star::after{
+    content:"★";
+}
