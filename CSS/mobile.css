@@ -54,4 +54,19 @@
         flex-wrap: wrap;
         gap: 25px;
     }
+
+    .reviews{
+        flex-direction: column;
+    }
+    .review{
+        padding: 1rem;
+        max-width: 100%;
+    }
+    .review h3 {
+        font-size: 1.5rem;
+    }
+    .review p{
+        font-size: 1.3rem;
+    }
+
 }
