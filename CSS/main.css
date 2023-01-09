@@ -17,6 +17,18 @@
     padding:0 5rem 0 5rem;
 }
 
+.landTxt h2{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.landTxt h2 span#EMP{
+    color: var(--color01);
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+
 .mobileImg{
     display: none;
     filter:
@@ -32,7 +44,7 @@
 
 
 
-.services__group{
+.services__group{   
     padding: 2rem;
     justify-content: center;
     display: flex;
@@ -68,4 +80,12 @@
     justify-content: center;
     text-align: center;
 }
-/* avaliations */
+/* avaliations / reviews */
+.reviews{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;}
+
+.name::after{
+    content: "\2B50\2B50\2B50\2B50\2B50";
+}
