@@ -7,7 +7,7 @@
     --color03: #D9D0C7;
     --color04: #A67458;
     --color05: #A65437;
-
+    --starCollor:#F0AD4E;
 }
 
 .landing {
@@ -83,9 +83,45 @@
 /* avaliations / reviews */
 .reviews{
     display: flex;
-    margin: 1rem;
-    justify-content: center;}
+    padding: 3rem;
+    justify-content: center;
+    gap: 25px;
 
-.name::after{
-    content: "\2B50\2B50\2B50\2B50\2B50";
+
+}
+
+.review{
+    background-color: var(--color02);
+    padding: 1.5vw;
+    border-radius: 10px;
+    color: white;
+    box-shadow: var(--color01) 3px 5px 5px;
+    max-width: 30%;
+    font-size: 2rem;
+}
+.review h3{
+    position: relative;
+    font-weight: 500;
+}
+h3.name::after{
+    position: absolute  ;
+    right: 1px;
+    filter:invert(100%);
+    content: url(./../midia/icons8-google-logo.svg);
+}
+.review p{
+    font-weight: 300;
+    font-size: 1.8rem;
+
+}
+ul.stars{
+    display: flex;
+    
+}
+ul li.star{
+    color: var(--starCollor);
+    padding-bottom: 2vh;
+}
+ul li.star::after{
+    content:"★";
 }
